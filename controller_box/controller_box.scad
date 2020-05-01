@@ -8,12 +8,12 @@ W = 350;
 H = 140;
 
 T = 17;
-t = 3.7;
+t = 3.7 + 0.1;
 slider_inset = 5;
 
 inner = [W-2*T, L-2*T, H-2*T];
 
-bottom();
+!bottom();
 top();
 left();
 right();
